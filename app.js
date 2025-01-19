@@ -8,7 +8,7 @@
 
 
 let numerosSorteados = []
-let limiteNumero = 10 ;
+let limiteNumero = 100 ;
 let numeroSecreto = gerarNumero(); // SALVA O NUMERO GERADO
 
 
@@ -22,7 +22,7 @@ function inserirHtml(tag, text) {
 
 function MensagemInicial(){
     inserirHtml('h1', 'Jogo do número secreto');
-    inserirHtml('p', 'Escolha um numero de 1 a 10');
+    inserirHtml('p', 'Escolha um numero de 1 a 100');
 };
 
 MensagemInicial();
